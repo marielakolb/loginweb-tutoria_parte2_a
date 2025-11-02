@@ -1,4 +1,4 @@
-# Guía para Construir una Aplicación de Tutorías en PHP con Patrón MVC (Extensión del Sistema de Login)
+# Guía para Construir una Aplicación de Tutorías en PHP con Patrón MVC (Extensión del Sistema de Login), Parte 2-a (Básica)
 
 Esta guía es una extensión de la "Guía para Construir una Aplicación de Login en PHP con Patrón MVC" (README.md). Aquí, ampliamos el sistema de autenticación de usuarios para incluir un sistema de tutorías donde los usuarios pueden registrarse como tutores que ofrecen servicios en diversas asignaturas (matemáticas, lengua y literatura, idiomas, etc.), y otros usuarios autenticados pueden solicitar tutorías de los tutores disponibles.
 
@@ -579,3 +579,4 @@ Esta aplicación sigue el patrón de diseño Modelo-Vista-Controlador (MVC), que
 3. El controlador interactúa con el modelo (TutorModel) para obtener datos de la base de datos.
 4. El controlador incluye la vista correspondiente (home.php), pasando los datos necesarios.
 5. La vista renderiza el HTML final con los datos dinámicos y lo envía al navegador del usuario.
+
